@@ -12,6 +12,8 @@ namespace Warzone
         {
             using (Game1 game = new Game1())
             {
+                game.IsFixedTimeStep = true;
+                game.TargetElapsedTime = TimeSpan.FromSeconds(1 / 60f);
                 game.Run();
             }
         }

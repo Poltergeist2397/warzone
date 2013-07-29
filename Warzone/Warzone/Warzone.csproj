@@ -107,6 +107,15 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Entities\Drawable.cs" />
+    <Compile Include="Entities\BaseObject.cs" />
+    <Compile Include="Graphics\TextureManager.cs" />
+    <Compile Include="Input\InputState.cs" />
+    <Compile Include="Player\Character\Bottom.cs" />
+    <Compile Include="Player\Character\Character.cs" />
+    <Compile Include="Input\InputManager.cs" />
+    <Compile Include="Player\Character\Top.cs" />
+    <Compile Include="Player\Controllable.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Game1.cs" />
